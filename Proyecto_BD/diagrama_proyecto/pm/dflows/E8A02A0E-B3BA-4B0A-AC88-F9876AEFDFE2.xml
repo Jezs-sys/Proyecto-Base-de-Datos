@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="Diagrama de Procesar_venta" id="E8A02A0E-B3BA-4B0A-AC88-F9876AEFDFE2" mainViewID="773724EC-B34C-8AEF-E88C-70F25E753315" topLevel="false" parentDFD_ID="68BFBD7F-54BB-FBCF-321F-CB2873BF9633">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-05 17:50:23 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<process>992CD377-5BAA-9E0E-82EB-FF527E369A30</process>
+</DataFlowDesign>

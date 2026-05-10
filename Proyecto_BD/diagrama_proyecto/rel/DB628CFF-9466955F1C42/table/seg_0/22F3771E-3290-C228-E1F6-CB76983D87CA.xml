@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22F3771E-3290-C228-E1F6-CB76983D87CA" name="Proveedores">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>4F4DAC4F-5843-F76C-0B03-05149F1866B0</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Proveedor" id="27192E29-A5F8-9563-2AB9-CEFA7210E31E">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>7BB39C54-297D-21A1-7F9C-F4EB019C852F</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_empresa" id="2DD10310-83D3-F196-1F5C-E05F75B85E3A">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>EDFE9880-ADD5-77DF-CCD6-796CC09AFBB4</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Proveedor" id="12587725-E11A-3D02-D99F-122F3B374C14">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>F386C5A3-50C8-168A-05A8-E5E27016AD55</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teléfono" id="353BA244-C7E7-12E0-C86C-06706EFACCC4">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>595A2E90-C302-9582-10DA-C78648BD7724</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9270C96D-14C2-F6BE-CB03-2F29AD54B487" name="Proveedores_PK">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>B35F4803-879C-B5A8-18D0-CCAFB51034DF</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27192E29-A5F8-9563-2AB9-CEFA7210E31E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

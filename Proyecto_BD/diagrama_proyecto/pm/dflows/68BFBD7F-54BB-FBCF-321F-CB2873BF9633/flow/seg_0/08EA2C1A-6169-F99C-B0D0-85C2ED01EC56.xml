@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Consulta_precio_y_disponibilidad" directorySegmentName="seg_0" id="08EA2C1A-6169-F99C-B0D0-85C2ED01EC56">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-05 18:28:47 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<destination>21C2C184-D3F7-FF7A-CC9C-991418ECD52C</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>992CD377-5BAA-9E0E-82EB-FF527E369A30</sourceProcessObject>
+<targetProcessObject>21C2C184-D3F7-FF7A-CC9C-991418ECD52C</targetProcessObject>
+</Flow>

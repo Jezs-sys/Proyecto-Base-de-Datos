@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="main_view" objectID="773724EC-B34C-8AEF-E88C-70F25E753315" name="Diagrama de Procesar_venta" visible="false"/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

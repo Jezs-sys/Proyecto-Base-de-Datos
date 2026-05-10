@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Reporte_tendencias" directorySegmentName="seg_0" id="BD4B6726-8DF0-7A93-B867-759FD2320592">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 22:17:39 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<destination>07101930-B078-CD7B-ABB1-F5426B28328E</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>38DCBEFF-4D54-3CAA-A6F3-49FE2AEEDC67</sourceProcessObject>
+<targetProcessObject>07101930-B078-CD7B-ABB1-F5426B28328E</targetProcessObject>
+</Flow>

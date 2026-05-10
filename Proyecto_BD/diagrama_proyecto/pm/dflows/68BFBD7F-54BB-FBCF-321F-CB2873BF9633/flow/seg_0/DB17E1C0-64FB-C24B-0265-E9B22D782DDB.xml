@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Ajuste_existencias_fisicas" directorySegmentName="seg_0" id="DB17E1C0-64FB-C24B-0265-E9B22D782DDB">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 19:12:59 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<destination>941900F8-C824-2979-3EAA-2ACDFB1B1AA5</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>3CC603A4-A4D6-577A-981E-8AA52150FDC8</sourceProcessObject>
+<targetProcessObject>941900F8-C824-2979-3EAA-2ACDFB1B1AA5</targetProcessObject>
+</Flow>

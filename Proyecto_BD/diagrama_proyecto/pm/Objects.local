@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.ProcessModel>
+   <object objectType="InfoStore" objectID="11EDC2DE-3FF0-F0CC-C68A-1D606C38E5B4" name="Registro_cliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="70E81390-CC9B-DCF5-00F5-C60718E769EB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="21C2C184-D3F7-FF7A-CC9C-991418ECD52C" name="Catalogo_telefono" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="70E81390-CC9B-DCF5-00F5-C60718E769EB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="941900F8-C824-2979-3EAA-2ACDFB1B1AA5" name="Almacen_Stock" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="70E81390-CC9B-DCF5-00F5-C60718E769EB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="InfoStore" objectID="C59F1FB2-BE0D-BE78-E9ED-7AA85CEDB9CE" name="Historial_ventas" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.InfoStore" propertyParentId="70E81390-CC9B-DCF5-00F5-C60718E769EB" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.process.ProcessModel>

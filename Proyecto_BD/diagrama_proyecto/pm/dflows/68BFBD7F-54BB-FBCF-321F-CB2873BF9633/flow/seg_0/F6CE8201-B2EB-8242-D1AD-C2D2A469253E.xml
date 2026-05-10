@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Conteo_inventario" directorySegmentName="seg_0" id="F6CE8201-B2EB-8242-D1AD-C2D2A469253E">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-05 18:28:52 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<destination>941900F8-C824-2979-3EAA-2ACDFB1B1AA5</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>992CD377-5BAA-9E0E-82EB-FF527E369A30</sourceProcessObject>
+<targetProcessObject>941900F8-C824-2979-3EAA-2ACDFB1B1AA5</targetProcessObject>
+</Flow>

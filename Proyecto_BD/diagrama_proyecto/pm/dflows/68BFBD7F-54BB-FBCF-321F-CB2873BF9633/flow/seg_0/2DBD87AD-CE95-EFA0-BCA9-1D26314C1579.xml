@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Datos_de_registro" directorySegmentName="seg_0" id="2DBD87AD-CE95-EFA0-BCA9-1D26314C1579">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-05 18:28:17 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<destination>B09AF025-EC2D-AEF9-7ED0-B2FB1AB58AE6</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>099D2BAB-EFB6-DD95-B83A-43F78CFA95E5</sourceProcessObject>
+<targetProcessObject>B09AF025-EC2D-AEF9-7ED0-B2FB1AB58AE6</targetProcessObject>
+</Flow>

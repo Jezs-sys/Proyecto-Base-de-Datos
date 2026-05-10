@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59B073F7-9608-1436-0088-FCE0E3AD2CC2" name="Ventas">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>FD95A07D-6EEF-95E9-67C8-A41D55A607FE</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Venta" id="CD4C84A6-0B3A-878F-6972-B6BC212F0A31">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>52EDF9B3-4F4C-9468-DAB1-B5EF67B78195</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_adquisicion" id="524BE55F-7DFA-BAC5-7F15-AE7AE54AAD37">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>6E6CF3EC-5B5F-AA4D-8CE4-0CDD8F04DE27</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad" id="6C4AC10F-55A2-000A-D73D-2908478E582A">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>E2D9DFAC-1FD5-9934-48E9-545743BDFC49</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Monto_Total" id="E23C6906-6C46-31B2-BFF8-EF5E434042E7">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>0B482DF1-6F3A-2327-9ABB-5F0E48ED5AFA</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefonos_ID_Movil" id="30F51C7E-2479-5EAE-5A9C-6FBA24749B37">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>6489E3C2-280F-D85C-0155-1BABFE8E3A2C</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8029D7BD-39A2-D3CE-CAD0-88A8DF69783D" referredColumn="E65979A5-64D8-C336-F8DA-0EAB1D72532D"/>
+</associations>
+</Column>
+<Column name="Clientes_ID_Cliente" id="85A48F6F-F81D-7B57-789E-8E05270F99A7">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>7B1AEEA3-D465-9501-96E4-85B4D00C10A1</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5131A23D-3EC4-F045-2E7F-8406C56E8533" referredColumn="2ED24A94-E613-9771-D476-389E04F663C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D9DDEED-91E6-ED18-7D55-2F531C361E42" name="Ventas_PK">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>CFCD4062-071E-AB6D-7B88-5E20ABAE091E</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD4C84A6-0B3A-878F-6972-B6BC212F0A31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17B9A335-4899-B368-E28C-A7B237F0B911" name="Ventas_Clientes_FK">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>1B2EB8AA-49B9-DDB4-A55A-7FCF7C67AD15</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85A48F6F-F81D-7B57-789E-8E05270F99A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CECBC63-07EF-1934-B6CF-CF404E8F0151" name="Ventas_Telefonos_FK">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>8CA65C93-1E4B-CFF1-F4C8-CA177ECDF624</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30F51C7E-2479-5EAE-5A9C-6FBA24749B37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

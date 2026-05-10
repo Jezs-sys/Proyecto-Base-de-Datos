@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Token_confirmacion" directorySegmentName="seg_0" id="C5AFA036-914E-CCE3-203F-A5A2C553A55E">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-05 18:28:59 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<destination>992CD377-5BAA-9E0E-82EB-FF527E369A30</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>2E3676A2-03D2-DEA6-50EA-4861C3130789</sourceProcessObject>
+<targetProcessObject>992CD377-5BAA-9E0E-82EB-FF527E369A30</targetProcessObject>
+</Flow>

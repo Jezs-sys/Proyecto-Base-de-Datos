@@ -1,0 +1,239 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A132DCC1-7B6F-3475-C400-E4EEED816C4D" name="Telefonos">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>0EB44D47-CDAA-61EC-F6B2-291F818F5C23</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Movil" id="E65979A5-64D8-C336-F8DA-0EAB1D72532D">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>D391D215-B2FC-FE92-2394-1D6AE73E1B10</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marca" id="A67E80A6-55C8-02D1-3B74-A69D50A44F77">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>D62D0E30-0193-B98D-DC7C-CCD7DD972D47</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modelo" id="8FCE03AB-F843-3D75-9919-CF40ACC6DD24">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>F0A6FE49-D296-EFF4-5F3D-28BB5307E46F</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sistema_Operativo" id="D69079D1-3AF6-48D7-F20A-978B2A6377D9">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>C678D9E1-B8F4-283A-AAB9-15530CC46ABF</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Procesador" id="206E0E7D-9C40-5103-B97D-43D8A30C197D">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>0450927E-EF15-3B0B-DDDA-D7B78308965A</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAM" id="E9D6F0B8-4DD3-E45D-FC8C-C0BF19AEE809">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>C8385F7A-D7AB-CC9C-3893-A9E2D1E4BD01</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Almacenamiento_ROM" id="A0808ACA-DB10-456E-AFC6-FCC518AA245A">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>C4D51FB7-8BC1-0C8E-57EE-FDFDEE92BDC3</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Pantalla" id="B1C5C3FC-0D21-1379-52D7-53419297B3C4">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>F56FFA6B-8204-DD36-C070-D5E13540C4D5</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pulgadas" id="0CDCF4D9-8E19-4F46-8F06-0659F0DE7676">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>37D52550-B85F-E8B4-3747-45A540482761</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hz_Tasa_Refresco" id="C174555B-1A2C-7FA4-4689-C9DF09CE6D0D">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>7822DD95-CDB6-0447-353F-F0D93B2300C8</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_Cámaras" id="F1DF8728-0D49-266C-FCB3-6D0927D6832D">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>682423C1-3484-EE25-AA02-6D1723575348</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacidad_mAh" id="F6E65B6F-736D-27B9-13EE-BF68C936D82E">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>1FE27E83-6135-6BB4-4370-F8941C22426D</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Carga_Rápida_W" id="6D1E2BBF-6414-D468-278D-DFC9DB201F95">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>AB365630-4796-8FFE-B13F-293221F8594A</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Carga_Inalambrica" id="B38CE346-37EB-8FAF-3A37-D310B43F1848">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>A3E0F149-23F5-FCA6-E67F-850F2A62175B</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Batería" id="8EED97B9-426D-EC43-956D-6BBC8F6700EE">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>9A1B92B2-060C-D0A5-288A-956D6E870730</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio_lista" id="AC8D9562-AB39-C1D0-8517-C78B6FCA4A5A">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>E38730B4-CA92-FCDC-5F8B-E844816AB532</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedores_ID_Proveedor" id="C5A61693-A632-EAFA-5ED0-DC42B1ACE8D0">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>DBB38439-BFD4-1130-6336-BE0E9E8FD49C</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="302B5D0F-8941-5220-DD41-842B9FE2457F" referredColumn="27192E29-A5F8-9563-2AB9-CEFA7210E31E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F855A44B-B96B-B11E-39B2-882C9A2DC346" name="Telefonos_PK">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>3C5CCCE8-4350-1069-1508-BF8BF79D32C0</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E65979A5-64D8-C336-F8DA-0EAB1D72532D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="764ED82C-D6B9-A508-3EA1-258F2601D0CE" name="Telefonos_Proveedores_FK">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:50:01 UTC</createdTime>
+<generatorID>BADBDDAA-8501-4BD8-DBBC-E0B66750AFB7</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5A61693-A632-EAFA-5ED0-DC42B1ACE8D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

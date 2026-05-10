@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Solicitud_cobro" directorySegmentName="seg_0" id="2050A40E-79A3-2E60-FAA9-E876EFB48BF7">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 19:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<destination>2E3676A2-03D2-DEA6-50EA-4861C3130789</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>992CD377-5BAA-9E0E-82EB-FF527E369A30</sourceProcessObject>
+<targetProcessObject>2E3676A2-03D2-DEA6-50EA-4861C3130789</targetProcessObject>
+</Flow>

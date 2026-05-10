@@ -1,0 +1,256 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0EB44D47-CDAA-61EC-F6B2-291F818F5C23" name="Telefonos">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 22:37:01 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Movil" id="D391D215-B2FC-FE92-2394-1D6AE73E1B10">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 22:37:58 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Marca" id="D62D0E30-0193-B98D-DC7C-CCD7DD972D47">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 22:39:20 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Modelo" id="F0A6FE49-D296-EFF4-5F3D-28BB5307E46F">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 22:39:21 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sistema_Operativo" id="C678D9E1-B8F4-283A-AAB9-15530CC46ABF">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:38:02 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Procesador" id="0450927E-EF15-3B0B-DDDA-D7B78308965A">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:38:01 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RAM" id="C8385F7A-D7AB-CC9C-3893-A9E2D1E4BD01">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 22:39:21 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Almacenamiento_ROM" id="C4D51FB7-8BC1-0C8E-57EE-FDFDEE92BDC3">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:35:10 UTC</createdTime>
+<generatorID>BADBDDAA-8501-4BD8-DBBC-E0B66750AFB7</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Pantalla" id="F56FFA6B-8204-DD36-C070-D5E13540C4D5">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:38:01 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pulgadas" id="37D52550-B85F-E8B4-3747-45A540482761">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:39:51 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hz_Tasa_Refresco" id="7822DD95-CDB6-0447-353F-F0D93B2300C8">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:35:11 UTC</createdTime>
+<generatorID>BADBDDAA-8501-4BD8-DBBC-E0B66750AFB7</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_Cámaras" id="682423C1-3484-EE25-AA02-6D1723575348">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:35:11 UTC</createdTime>
+<generatorID>BADBDDAA-8501-4BD8-DBBC-E0B66750AFB7</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capacidad_mAh" id="1FE27E83-6135-6BB4-4370-F8941C22426D">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:35:11 UTC</createdTime>
+<generatorID>BADBDDAA-8501-4BD8-DBBC-E0B66750AFB7</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Carga_Rápida_W" id="AB365630-4796-8FFE-B13F-293221F8594A">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:35:12 UTC</createdTime>
+<generatorID>BADBDDAA-8501-4BD8-DBBC-E0B66750AFB7</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Carga_Inalambrica" id="A3E0F149-23F5-FCA6-E67F-850F2A62175B">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:38:02 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo_Batería" id="9A1B92B2-060C-D0A5-288A-956D6E870730">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:38:02 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio_lista" id="E38730B4-CA92-FCDC-5F8B-E844816AB532">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 22:39:59 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Proveedor" id="DBB38439-BFD4-1130-6336-BE0E9E8FD49C">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:17:48 UTC</createdTime>
+<generatorID>BADBDDAA-8501-4BD8-DBBC-E0B66750AFB7</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<referedAttribute>7BB39C54-297D-21A1-7F9C-F4EB019C852F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C5CCCE8-4350-1069-1508-BF8BF79D32C0" name="Telefonos PK">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 22:38:26 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D391D215-B2FC-FE92-2394-1D6AE73E1B10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

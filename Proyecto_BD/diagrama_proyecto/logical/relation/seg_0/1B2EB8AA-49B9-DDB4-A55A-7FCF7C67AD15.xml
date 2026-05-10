@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Compra_realizada" directorySegmentName="seg_0" id="1B2EB8AA-49B9-DDB4-A55A-7FCF7C67AD15">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:07:36 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<sourcePk>6B32D521-2162-BC89-12B3-272ECE8110D1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>96A7C98A-0F67-5852-E0DD-5AFD0D44C459</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD95A07D-6EEF-95E9-67C8-A41D55A607FE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

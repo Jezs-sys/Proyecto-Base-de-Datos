@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Surtir_Catalogo" directorySegmentName="seg_0" id="BADBDDAA-8501-4BD8-DBBC-E0B66750AFB7">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:17:48 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<sourcePk>B35F4803-879C-B5A8-18D0-CCAFB51034DF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F4DAC4F-5843-F76C-0B03-05149F1866B0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0EB44D47-CDAA-61EC-F6B2-291F818F5C23</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

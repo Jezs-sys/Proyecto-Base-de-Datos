@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD95A07D-6EEF-95E9-67C8-A41D55A607FE" name="Ventas">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 23:12:54 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Venta" id="52EDF9B3-4F4C-9468-DAB1-B5EF67B78195">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 23:13:41 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_adquisicion" id="6E6CF3EC-5B5F-AA4D-8CE4-0CDD8F04DE27">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 23:14:19 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="E2D9DFAC-1FD5-9934-48E9-545743BDFC49">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 23:14:32 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Monto_Total" id="0B482DF1-6F3A-2327-9ABB-5F0E48ED5AFA">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 23:14:45 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Movil" id="6489E3C2-280F-D85C-0155-1BABFE8E3A2C">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 23:20:22 UTC</createdTime>
+<generatorID>8CA65C93-1E4B-CFF1-F4C8-CA177ECDF624</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<referedAttribute>D391D215-B2FC-FE92-2394-1D6AE73E1B10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Cliente" id="7B1AEEA3-D465-9501-96E4-85B4D00C10A1">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-07 00:07:36 UTC</createdTime>
+<generatorID>1B2EB8AA-49B9-DDB4-A55A-7FCF7C67AD15</generatorID>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<referedAttribute>822DA11E-7921-46CC-C877-098F87CF9ACD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CFCD4062-071E-AB6D-7B88-5E20ABAE091E" name="Ventas PK">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 23:13:58 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52EDF9B3-4F4C-9468-DAB1-B5EF67B78195</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

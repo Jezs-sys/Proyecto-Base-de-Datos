@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Venta_de_Teléfono" directorySegmentName="seg_0" id="8CA65C93-1E4B-CFF1-F4C8-CA177ECDF624">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-06 23:20:22 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<engineerTo>
+<item key="DB628CFF-CA28-8870-0DE3-9466955F1C42" value="true"/>
+</engineerTo>
+<sourcePk>3C5CCCE8-4350-1069-1508-BF8BF79D32C0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0EB44D47-CDAA-61EC-F6B2-291F818F5C23</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD95A07D-6EEF-95E9-67C8-A41D55A607FE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

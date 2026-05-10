@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Flow class="oracle.dbtools.crest.model.design.process.Flow" name="Orden_compra" directorySegmentName="seg_0" id="FDC088B8-CBB8-CD4A-65FA-803CA0059E61">
+<createdBy>juanp</createdBy>
+<createdTime>2026-03-05 18:28:21 UTC</createdTime>
+<ownerDesignName>diagrama_proyecto</ownerDesignName>
+<destination>992CD377-5BAA-9E0E-82EB-FF527E369A30</destination>
+<logging>false</logging>
+<opCreate>false</opCreate>
+<opDelete>false</opDelete>
+<opRead>false</opRead>
+<opUpdate>false</opUpdate>
+<sourceProcessObject>099D2BAB-EFB6-DD95-B83A-43F78CFA95E5</sourceProcessObject>
+<targetProcessObject>992CD377-5BAA-9E0E-82EB-FF527E369A30</targetProcessObject>
+</Flow>
